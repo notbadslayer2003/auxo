@@ -1,7 +1,7 @@
 const ITEMS = [
     'Stratégie de marque', 'Réseaux sociaux', 'Identité visuelle',
     'Création de contenu', 'Audit de communication', 'Branding',
-    'Photo & Vidéo', 'Croissance organique',
+    'Photo & Vidéo', 'Croissance',
 ]
 
 export default function Marquee() {

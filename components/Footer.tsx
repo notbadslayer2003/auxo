@@ -7,7 +7,6 @@ const NAV_LINKS = [
     ['À propos', '#apropos' ],
     ['Équipe',   '#equipe'  ],
     ['Services', '#services'],
-    ['Tarifs',   '#tarifs'  ],
     ['Contact',  '#contact' ],
 ]
 
@@ -23,7 +22,7 @@ const LEGAL_LINKS = [
     { label: 'Mentions légales',   href: '/mentions-legales'              },
     { label: 'Confidentialité',    href: '/politique-de-confidentialite'  },
     { label: 'Cookies',            href: '/politique-cookies'             },
-    { label: 'CGU',                href: 'https://www.swisstransfer.com/d/9a804d90-fa97-4abf-909f-693ac893109f', ext: true },
+    { label: 'CGU',                href: '/cgv' },
 ]
 
 const CONTACT_LINKS = [

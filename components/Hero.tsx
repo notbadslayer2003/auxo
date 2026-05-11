@@ -38,7 +38,7 @@ export default function Hero() {
             {/* Content */}
             <div className="container-auxo" style={{ position: 'relative', zIndex: 3, paddingBottom: '60px', opacity: loaded ? 1 : 0, transform: loaded ? 'translateY(0)' : 'translateY(32px)', transition: 'opacity 1s ease, transform 1s ease' }}>
         <span className="label-tag" style={{ display: 'block', marginBottom: '28px', opacity: 0.85 }}>
-          Agence de communication — Belgique
+          Agence de communication stratégique
         </span>
 
                 <h1 className="text-display-xl" style={{ fontFamily: 'var(--font-display)', fontWeight: 700, color: 'var(--color-epure)', maxWidth: '820px', marginBottom: '24px' }}>

@@ -53,7 +53,7 @@ export default function Contact() {
             id="contact"
             ref={ref as React.RefObject<HTMLElement>}
             className="section-py"
-            style={{ background: 'var(--color-sillage)', position: 'relative', overflow: 'hidden' }}
+            style={{ background: 'var(--color-ancre)', position: 'relative', overflow: 'hidden' }}
         >
             {/* Papier millimétré */}
             <div style={{
@@ -208,7 +208,7 @@ export default function Contact() {
                                 <button type="submit" disabled={status === 'loading'} style={{
                                     width: '100%', justifyContent: 'center', padding: '16px', marginTop: '4px',
                                     fontFamily: 'var(--font-display)', fontWeight: 600, fontSize: '0.95rem',
-                                    background: 'var(--color-trame)', color: 'var(--color-ancre)',
+                                    background: 'var(--color-vecteur)', color: 'var(--color-ancre)',
                                     border: 'none', borderRadius: '4px', cursor: 'pointer',
                                     display: 'flex', alignItems: 'center', gap: '10px',
                                     opacity: status === 'loading' ? 0.6 : 1,
